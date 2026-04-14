@@ -15,11 +15,11 @@ const zucchine = [
 
 const zucchineLunghe = zucchine.filter((tipoZucchina) => {
   return tipoZucchina.length > 15;
-})
+});
 
 const zucchineCorte = zucchine.filter((tipoZucchina) => {
   return tipoZucchina.length <= 15;
-})
+});
 
 console.log(zucchineLunghe);
 

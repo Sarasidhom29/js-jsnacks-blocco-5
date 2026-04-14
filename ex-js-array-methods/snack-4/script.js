@@ -10,6 +10,6 @@ const posts = [
 
 const nomiAutori = posts.map((autori) => {
   return autori.author;
-})
+});
 
 console.log(nomiAutori);
