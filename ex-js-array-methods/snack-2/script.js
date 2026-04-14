@@ -6,3 +6,11 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+
+
+const nomiPersone = people.map(function(person) {
+  return person.name; 
+});
+
+console.log(nomiPersone);
